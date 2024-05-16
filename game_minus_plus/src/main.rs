@@ -25,7 +25,7 @@ fn main() {
             Ok(nombre) => nombre,
             Err(_) => {
                 println!("Input is incorrent, try again");
-                continue
+                continue;
             }
         };
 
